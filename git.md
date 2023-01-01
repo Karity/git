@@ -12,4 +12,4 @@
 
 ## add commit
 
-### 创建新文件（或做修改）之后，先 git add xxx.xx 添加文件（提交到缓存）；然后 git commit xxx.xx 提交文件（提交到本地仓库）。
+### 创建新文件（或做修改）之后，先 git add xxx.xx 添加文件（提交到缓存）；然后 git commit xxx.xx 提交文件（提交到本地仓库，默认提交到master分支）。
