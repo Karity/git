@@ -1,5 +1,7 @@
 # git
 
+## git init 初始化仓库
+
 ## 修改相关配置
 
 git config --list  # 显示配置
@@ -49,6 +51,12 @@ git push -u origin master
 git remote -v  # 查看关联的远端仓库(即起的别名)，也可在.git目录下的config文件中查看字段：[remote "xxx"] url=xxx
 
 git remote rm 仓库名  # 删除仓库
+
+## 查看所有分支
+
+[Git从入门到精通(下篇)-5-分支详解 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/410255613#:~:text=git branch可以查看当前所有的分支%2C,本质上是显示.git%2Frefs%2Fheads 目录下的文件.)
+
+git branch
 
 ## 创建分支
 
