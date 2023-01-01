@@ -12,8 +12,14 @@
 
 ## add commit
 
-### 创建新文件（或做修改）之后，先 git add xxx.xx 添加文件（提交到缓存）；然后 git commit xxx.xx 提交文件（提交到本地仓库，默认提交到master分支）。
+### 创建新文件（或做修改）之后，先 git add xxx.xx 添加文件（提交到缓存）；然后 git commit xxx.xx [-m (添加注释)] 提交文件（提交到本地仓库，默认提交到master分支）。
 
-## 查看仓库状态
+## 查看仓库状态： git status [-s]
 
-### git status [-s]
+## 查看修改历史： git log [xx.xx(指定文件), --oneline(一行显示)]
+
+## 比较差异： git diff
+
+## 还原修改 ：
+
+## 删除： git rm xxx.xx
