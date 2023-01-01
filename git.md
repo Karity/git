@@ -49,3 +49,7 @@ git push -u origin master
 git remote -v  # 查看关联的远端仓库(即起的别名)，也可在.git目录下的config文件中查看字段：[remote "xxx"] url=xxx
 
 git remote rm 仓库名  # 删除仓库
+
+## 创建分支
+
+git branch 分支名
