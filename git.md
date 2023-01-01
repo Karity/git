@@ -53,3 +53,7 @@ git remote rm 仓库名  # 删除仓库
 ## 创建分支
 
 git branch 分支名
+
+## 切换分支
+
+git checkout 分支名
